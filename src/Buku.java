@@ -17,26 +17,26 @@ public class Buku implements Pustaka{
     
     @Override
     public void NoBuku() {
-        System.out.print("Masukkan Nomor Buku\t\t: ");
+        System.out.print("Input Book Number\t\t: ");
         noBuk = input.nextInt();
         input.nextLine();
     }
 
     @Override
     public void JudulBuku() {
-        System.out.print("Masukkan Judul Buku\t\t: ");
+        System.out.print("Input Book Title\t\t: ");
         juBuk = input.nextLine(); 
     }
 
     @Override
     public void NamaPengarang() {
-        System.out.print("Nama Pengarang\t\t\t: ");
+        System.out.print("Author Name\t\t\t: ");
         Pengarang = input.nextLine(); 
     }
 
     @Override
     public void telat() {
-        System.out.print("Total Keterlambatan (hari)\t: ");
+        System.out.print("Lateness Total (day)\t: ");
         telat = input.nextInt();
         input.nextLine();
     }
@@ -56,7 +56,7 @@ public class Buku implements Pustaka{
         }
         else if (telat >=4){
             denda = "1 Buku";
-            System.out.println("(Bebas Buku apa saja)");
+            System.out.println("(any kind of books allowed)");
         }
     }
 
@@ -70,6 +70,6 @@ public class Buku implements Pustaka{
         con = DriverManager.getConnection(url,"root","");
         Statement statement = con.createStatement();
         statement.execute(sql);   
-        System.out.println("\nDATA BERHASIL DI INPUT !!!"); 
+        System.out.println("\nDATA SUCCESSFULY INPUT !!!"); 
     }
 }
