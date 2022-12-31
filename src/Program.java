@@ -48,10 +48,10 @@ public class Program {
                 System.out.println("=========================================");
                 System.out.println("            LIBRARY PROGRAM MENU         ");
                 System.out.println("=========================================");
-                System.out.println("1. Kembalikan Buku");
-                System.out.println("2. Ubah Data Buku");
-                System.out.println("3. Cek Daftar Buku yang Dikembalikan"); 
-                System.out.println("4. Hapus data Buku yang Dikembalikan");
+                System.out.println("1. Return Book");
+                System.out.println("2. Change Book Data");
+                System.out.println("3. Check List of Returned Books"); 
+                System.out.println("4. Delete Returned Book Data");
                 System.out.println("5. Exit Program");
                 System.out.println("=========================================");
                 System.out.println("");
