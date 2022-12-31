@@ -46,16 +46,16 @@ public class Program {
             while (lanjutkan){
                 System.out.println("");
                 System.out.println("=========================================");
-                System.out.println("             DAFTAR MENU PROGRAM         ");
+                System.out.println("            LIBRARY PROGRAM MENU         ");
                 System.out.println("=========================================");
                 System.out.println("1. Kembalikan Buku");
                 System.out.println("2. Ubah Data Buku");
-                System.out.println("3. Cek Daftar Buku yang akan Dikembalikan"); 
-                System.out.println("4. Hapus data Buku yang akan Dikembalikan");
-                System.out.println("5. Keluar dari Program");
+                System.out.println("3. Cek Daftar Buku yang Dikembalikan"); 
+                System.out.println("4. Hapus data Buku yang Dikembalikan");
+                System.out.println("5. Exit Program");
                 System.out.println("=========================================");
                 System.out.println("");
-                System.out.print("Masukkan Pilihan : ");
+                System.out.print("Choose Menu : ");
                 pilihan = input.nextInt();
                 System.out.println("-----------------------------------------\n");
             
